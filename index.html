@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href='style.css' type="text/css">
+  <title>Tic Tac Toe Project</title>
+</head>
+<body onload="">
+	<div class="grid">
+		<div class="row">
+			<div id="box-0" onclick="addMarker(this)" class="boxes"></div>
+			<div id="box-1" onclick="addMarker(this)" class="boxes"></div>
+			<div id="box-2" onclick="addMarker(this)" class="boxes"></div>
+		</div>
+		<div class="row">
+			<div id="box-3" onclick="addMarker(this)" class="boxes"></div>
+			<div id="box-4" onclick="addMarker(this)" class="boxes"></div>
+			<div id="box-5" onclick="addMarker(this)" class="boxes"></div>
+		</div>
+		<div class="row">
+			<div id="box-6" onclick="addMarker(this)" class="boxes"></div>
+			<div id="box-7" onclick="addMarker(this)" class="boxes"></div>
+			<div id="box-8" onclick="addMarker(this)" class="boxes"></div>
+		</div>
+	</div>
+	<div class="playerSidebar">
+		<div class="players">
+			<div class="playerName" id="p1Name">Player1</div>
+			<div class="score" id="p1score">0</div>
+			<div class="playerName" id="p2Name">Player2</div>
+			<div class="score" id="playa2">0</div>
+		</div>
+		<button type="button" onclick="reset()">Reset</button>
+	</div>
+<script src="script.js"></script>
+</body>
+</html>
